@@ -4,7 +4,7 @@ This document serves as the code specification for the paper *"am-ELO: A Stable 
 
 ## Requirements
 
-Our work can **run in a normal environment (including pandas, numpy, and torch)**.  You can also reconfigure the environment by following steps:
+Our work can **run in a normal environment (including pandas, numpy, and torch)**, and for the dataset, we need to use the **HuggingFace** library.  You can also reconfigure the environment by following steps:
 
 First create a Python environment python:
 
@@ -47,9 +47,15 @@ am-ELO/
 
 ## Data Downloading and Preprocessing
 
-**！！！The data is provided, which means you can skip this step.**
-
 To get the dataset used in experiments, you can see the details for Chatbot Dataset on huggingface ([lmsys/chatbot_arena_conversations · Datasets at Hugging Face](https://huggingface.co/datasets/lmsys/chatbot_arena_conversations)).
+
+```train
+cd data
+python prepare_data.py --key==xxx
+cd ..
+```
+
+**！！！params key is the huggingface key！！！**
 
 During code execution, annotators with less than **50** annotation records will be filtered out. Here is the statistical information of the filtered dataset.
 
