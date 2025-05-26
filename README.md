@@ -1,6 +1,6 @@
 # am-ELO: A Stable Framework for Arena-based LLM Evaluation
 
-This document serves as the code specification for the paper *"am-ELO: A Stable Framework for Arena-based LLM Evaluation"*(), which has been accepted by **ICML 2025** and will be presented as a **Spotlight** paper at the conference.
+This document serves as the code specification for the paper *"am-ELO: A Stable Framework for Arena-based LLM Evaluation"*([[2505.03475\] am-ELO: A Stable Framework for Arena-based LLM Evaluation (arxiv.org)](https://export.arxiv.org/abs/2505.03475)), which has been accepted by **ICML 2025** and will be presented as a **Spotlight** paper at the conference.
 
 ## Requirements
 
